@@ -1,0 +1,68 @@
+body {
+    min-height: 90vh;
+    background-image: url("https://media.istockphoto.com/vectors/fastfood-handdrawn-drawing-vector-id940932474");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .container {
+    width: 80%;
+    height: 800px;
+    background-color: grey;
+    border: 1px solid transparent;
+   
+    border-radius: 7px;
+  }
+  .totale {
+    border-bottom: 1px solid #d2d4d6;
+  }
+  .totale p {
+    margin-left: 30px;
+    font-size: 18px;
+    color: honeydew;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+  }
+  .fas {
+    color: #f6f8fa;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-top: 15px;
+    border-bottom: 1px solid #d2d4d6;
+  }
+  
+  .lastrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-top: 15px;
+  }
+  span {
+    color: #f4f7fa;
+  }
+  
+  .price {
+    color: #eff2f5;
+  }
+  
+  .fa-heart {
+    color: rgb(253, 251, 251);
+  }
+  
+  .myClass {
+    color: red;
+  }
